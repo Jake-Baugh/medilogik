@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ 
+* { 
+    font-family: Open Sans;
+}
+
+.index-content a:hover{
+    color:black;
+    text-decoration:none;
+}
+.index-content{
+    margin-bottom: 20px;
+    /*padding: 0px 0px 50px;*/
+}
+.index-content .row{
+    margin-top: 20px;
+}
+.index-content a{
+    color: black;
+}
+.index-content .card{
+    background-color: #FFFFFF;
+    padding: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+.index-content .card:hover{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    color:black;
+}
+.index-content .card img{
+    width: 100%;
+    border: 1px #1962a3 solid;
+}
+.index-content .card h4{
+    /* margin: 20px; */
+    font-weight: 600;
+    font-size: 16px;
+}
+.index-content .card p{
+    /* margin: 20px; */
+    opacity: 0.65;
+    font-size: 12px;
+}
+.index-content .blue-button{
+    width: 100px;
+    -webkit-transition: background-color 1s , color 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s , color 1s;
+    min-height: 20px;
+    background-color: #1962a3;
+    color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 10px 0px 5px;
+    padding: 5px 0px;
+    display: inline-block;
+}
+.index-content .blue-button:hover{
+    background-color: #dadada;
+    color: #002E5B;
+}
+@media (max-width: 768px) {
+
+    .index-content .col-lg-4 {
+        margin-top: 20px;
+    }
+
+    .navbar-nav > li > a {
+    margin: auto !important;
+}
+  
+}
+@media (min-width: 768px) {
+ul {
+    padding-left: 0px;
+}
+}
+
+.main {
+    margin-top:120px;
+}
+
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left span {
+    padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-circle-left, 
+.carousel-control .glyphicon-chevron-circle-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+	position: absolute;
+	margin: 0px 40px;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-circle-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-circle-right,
+.carousel-control .icon-next {
+	right: 0;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 28%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+
+.header-text h3 span {
+    padding: 15px;
+    font-size: 30px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+.blog-content {
+    height:200px;
+}
+
+.title {
+
+        color:#1962a3;
+        font-weight: 600;
+}
+.title-box {
+    
+    border-bottom: 1px grey solid;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.divider {
+    border-bottom: 1px grey solid;
+    margin: 50px 0px 30px;
+}
+
+.title-box:before {
+    background: #1962a3;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    margin: 0 0 -1px;
+    position: absolute;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+footer{
+     background-color: #1962a3;
+     padding: 40px 0px;
+}	       
+
+
+
+.adress span , .contact span , .social span{
+   color: #FFF; 
+   font-weight: 800; 
+   padding:20px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+
+.adress li , .contact li , .social li {
+    padding:5px 0px;
+    list-style: none;
+}
+
+.adress li p , .contact li a , .social li a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social li{
+    float:left;
+}
+
+.social .fa{
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.footer-logo {
+    padding-top:25px;
+}
+
+.contact-item {
+    color: #ffffff;
+}
+.contact-item h5 {
+    font-size: 16px;
+    margin: 0px 0px 10px;
+}
+
+.contact-item p {
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.copyright {
+    margin-top:30px;
+    color:#fff;
+}
+
+.copyright p {
+
+font-size: 12px;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+  .box img{
+    width:80px;
+    padding:0px;
+  }
+
+  .box h3 {
+    font-size: 18px;
+    font-weight:600;
+  }
+  .box p {
+    font-size: 12px;
+  }
+  
+  .glyp-icon{
+    font-size:50px;
+    color:#ce007c;
+  }
+  
+  .navbar-toggle {
+    background-color: #1962a3;
+}
+
+  .blog-article h4{
+   margin-top:0px;
+  }
+
+  .blog-article p{
+    font-size:14px;
+  }
+
+  .no-padding {
+      padding:auto 0px;
+  }
+
+  .active{
+    font-weight: 600;
+    color: #1962a3;
+}
+
+.carousel-control.right{
+    right:50px;
+}
+.navbar-toggle {
+    padding: 20px 15px;
+}
+
+.navbar-nav a:first-child {
+    margin-left:0px;
+    padding-left:0px;
+}
+
+.title-box .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#about-decoration::before {
+    width: 95px;
+}
+
+#product-decoration::before {
+    width: 220px;
+}
+
+#news-decoration::before {
+    width: 120px;
+}
+
+#events-decoration::before {
+    width: 68px;
+}
+
+#tutorials-decoration::before {
+    width: 100px;
+}
+
+#latest-decoration::before {
+    width: 120px;
+}
+
+#contacts-decoration::before {
+    width: 110px;
+}
+
+
+
