@@ -373,6 +373,10 @@ font-size: 12px;
     margin: auto !important;
     }
 
+    div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
+        height:260px;
+    }
+
     .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
